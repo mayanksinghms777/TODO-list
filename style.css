@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: rgb(221, 244, 252);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    padding-top: 10px;
+    box-shadow: 10px 10px;
+    padding: 20px;
+    background-color: rgb(154, 234, 240);
+   
+}
+
+#newtask{
+    margin: 17px;
+    padding: 20px;
+    
+}
+
+#addtask{
+    margin: 20px;
+    padding: 8px;
+    color: brown;
+
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    font-family: 'Courgette', cursive;
+}
+
+#todolist{
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    font-family: 'Lobster Two', cursive;
+}
+  
+ul li:before {
+    content: "👉 ";
+  }
+
+
+
